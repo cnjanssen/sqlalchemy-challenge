@@ -117,11 +117,6 @@ def start_end(start,end):
 
 
 
-# 5. return jsonified output
-@app.route("/jsonified")
-def jsonified():
-    return jsonify(hello_dict)
-
 
 
 if __name__ == "__main__":
